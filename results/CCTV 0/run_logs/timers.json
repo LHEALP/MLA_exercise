@@ -1,0 +1,41 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1592933839",
+        "python_version": "3.8.3 (default, May 19 2020, 06:50:17) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\akljh\\Anaconda3\\envs\\ml-agents\\Scripts\\mlagents-learn --train --run-id=CCTV 0 Basic.yaml",
+        "mlagents_version": "0.18.0.dev0",
+        "mlagents_envs_version": "0.18.0.dev0",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.2.0",
+        "end_time_seconds": "1592933901"
+    },
+    "total": 61.89135110000001,
+    "count": 1,
+    "self": 0.19273550000001194,
+    "children": {
+        "run_training.setup": {
+            "total": 0.010453599999999952,
+            "count": 1,
+            "self": 0.010453599999999952
+        },
+        "TrainerController.start_learning": {
+            "total": 61.688162,
+            "count": 1,
+            "self": 0.0008050999999866804,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.68721860000001,
+                    "count": 1,
+                    "self": 61.68721860000001
+                },
+                "TrainerController._save_model": {
+                    "total": 0.00013830000000325526,
+                    "count": 1,
+                    "self": 0.00013830000000325526
+                }
+            }
+        }
+    }
+}
